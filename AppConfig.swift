@@ -6,17 +6,15 @@ enum AppConfig {
     static let useLocalBundle = false
 
     // TODO: Replace with your deployed Vercel / server URL
-    static let remoteURL = "https://your-chatterbox-app.vercel.app"
-
+    static let remoteURL = "https://chatterbox.khadilwayde.icu"
     // External links not in this list open in Safari
     static let allowedHosts = [
-        "your-chatterbox-app.vercel.app",
-        "localhost",
+        "chatterbox.khadilwayde.icu",
         "127.0.0.1"
     ]
 
     static let appName     = "ChatterBox"
-    static let bundleID    = "com.yourcompany.chatterbox"
+    static let bundleID = "icu.khadilwayde.chatterbox"
     static let appVersion  = "1.0.0"
     static let buildNumber = "1"
 
